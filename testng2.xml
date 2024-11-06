@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Bank">
+<test name = "Personal loan">
+  <packages>
+  <package name ="testa"/>
+  </packages>
+  </test>
+</suite>

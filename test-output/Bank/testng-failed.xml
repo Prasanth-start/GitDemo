@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bank]">
+  <parameter name="URL" value="https://rahulshettyacademy.com/AutomationPractice/"/>
+  <listeners>
+    <listener class-name="testa.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Car loan(failed)">
+    <parameter name="APIKEY/username" value="123456"/>
+    <parameter name="URL" value="https://google.com"/>
+    <classes>
+      <class name="testa.day3">
+        <methods>
+          <include name="dummylogin"/>
+          <include name="APICarlogin"/>
+          <include name="Ipadlogin"/>
+          <include name="before"/>
+          <include name="WebCarlogin"/>
+        </methods>
+      </class> <!-- testa.day3 -->
+    </classes>
+  </test> <!-- Car loan(failed) -->
+</suite> <!-- Failed suite [Bank] -->

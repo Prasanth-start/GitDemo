@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite">
+<test name = "Regression">
+<groups>
+<run>
+<include name = "Smoke"/>
+</run>
+</groups>
+<classes>
+<class name = "testa.day1"/>
+<class name = "testa.day2"/>
+<class name = "testa.day3"/>
+<class name = "testa.day4"/>
+</classes>
+  </test>
+</suite>

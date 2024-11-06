@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Bank">
+
+<listeners>
+<listener class-name="testa.Listeners"/>
+</listeners>
+
+<parameter name ="URL" value = "https://rahulshettyacademy.com/AutomationPractice/"/>
+
+  <test name="Personal Loan">
+    <classes>
+      <class name="testa.day1"/>
+      <class name="testa.day2"/>
+    </classes>
+  </test>
+  
+  <test name ="Car loan">
+  <parameter name ="URL" value="https://google.com"/>
+  <parameter name ="APIKEY/username" value="123456"/>
+  <classes>
+  <class name ="testa.day3">
+  <methods>
+  <exclude name = "MobileCarlogin"/>
+  </methods>
+  </class>
+  </classes>
+  </test>
+  
+  <test name = "Home Loan">
+  <classes>
+  <class name = "testa.day4">
+  <methods>
+  <exclude name ="Mobile.*"/>
+  </methods>
+  </class>
+  </classes>
+  </test>
+</suite>
